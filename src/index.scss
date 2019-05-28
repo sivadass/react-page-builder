@@ -1,0 +1,53 @@
+// Reset  default styles
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: #232323;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+input,
+button,
+select {
+  font-size: inherit;
+  font-family: inherit;
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
+button {
+  cursor: pointer;
+  &:focus,
+  &:active {
+    outline: none;
+    background: #666;
+  }
+  &:hover {
+    background: #ddd;
+  }
+}

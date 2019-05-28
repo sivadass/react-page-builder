@@ -1,0 +1,16 @@
+.app {
+  header {
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  main {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    min-height: calc(100vh - 51px);
+  }
+  footer {
+    text-align: center;
+    padding: 16px;
+    font-size: 14px;
+  }
+}
