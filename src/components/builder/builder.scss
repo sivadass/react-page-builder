@@ -1,0 +1,9 @@
+.builder {
+  .builder-header {
+    background: #232323;
+  }
+  .builder-main {
+    display: flex;
+    min-height: calc(100vh - 100px);
+  }
+}

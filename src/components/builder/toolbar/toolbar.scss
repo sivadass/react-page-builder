@@ -1,0 +1,15 @@
+.toolbar {
+  padding: 8px 0;
+}
+.toolbar-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  .toolbar-item {
+    display: inline-block;
+    margin: 0 8px 0 0;
+    button {
+      height: 32px;
+    }
+  }
+}

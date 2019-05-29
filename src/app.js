@@ -1,7 +1,5 @@
 import React from "react";
-import Toolbar from "./components/toolbar";
-import Canvas from "./components/canvas";
-import Customizer from "./components/customizer";
+import Builder from "./components/builder";
 import "./app.scss";
 
 function App() {
@@ -9,9 +7,7 @@ function App() {
     <div className="app">
       <header>Page Builder</header>
       <main>
-        <Toolbar />
-        <Canvas />
-        <Customizer />
+        <Builder />
       </main>
       <footer>&copy; Page Builder 2019</footer>
     </div>

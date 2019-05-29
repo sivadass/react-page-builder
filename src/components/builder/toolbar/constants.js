@@ -1,19 +1,19 @@
 export const TOOL_ITEMS = [
   {
     id: 1,
-    name: "Title",
+    name: "Tit",
     description: "Adds a Title block",
     icon: "icon-title"
   },
   {
     id: 2,
-    name: "Paragraph",
+    name: "Para",
     description: "Adds a Paragraph block",
     icon: "icon-paragraph"
   },
   {
     id: 3,
-    name: "Image",
+    name: "Img",
     description: "Adds an Image block",
     icon: "icon-image"
   },
@@ -25,7 +25,7 @@ export const TOOL_ITEMS = [
   },
   {
     id: 5,
-    name: "Section",
+    name: "Sec",
     description: "Adds a section block",
     icon: "icon-section"
   }
