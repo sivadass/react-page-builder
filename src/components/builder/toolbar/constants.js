@@ -1,38 +1,32 @@
 export const TOOL_ITEMS = [
   {
     id: 1,
-    name: "Tit",
+    name: "Title",
     description: "Adds a Title block",
-    icon: "icon-title"
+    icon: "text_fields"
   },
   {
     id: 2,
-    name: "Para",
+    name: "Paragraph",
     description: "Adds a Paragraph block",
-    icon: "icon-paragraph"
+    icon: "notes"
   },
   {
     id: 3,
-    name: "Img",
+    name: "Image",
     description: "Adds an Image block",
-    icon: "icon-image"
+    icon: "insert_photo"
   },
   {
     id: 4,
     name: "Form",
     description: "Adds a form block",
-    icon: "icon-form"
+    icon: "insert_comment"
   },
   {
     id: 5,
-    name: "Sec",
+    name: "Section",
     description: "Adds a section block",
-    icon: "icon-section"
-  },
-  {
-    id: 6,
-    name: "Card",
-    description: "Adds a card block",
-    icon: "icon-card"
+    icon: "view_day"
   }
 ];

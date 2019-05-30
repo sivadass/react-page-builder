@@ -12,8 +12,9 @@ function Toolbar() {
               onClick={() => {
                 console.log("Selected ", tool.name, "tool");
               }}
+              title={tool.name}
             >
-              {tool.name}
+              <i class="material-icons">{tool.icon}</i> {tool.name}
             </button>
           </li>
         ))}
