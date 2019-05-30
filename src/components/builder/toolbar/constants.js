@@ -28,5 +28,11 @@ export const TOOL_ITEMS = [
     name: "Sec",
     description: "Adds a section block",
     icon: "icon-section"
+  },
+  {
+    id: 6,
+    name: "Card",
+    description: "Adds a card block",
+    icon: "icon-card"
   }
 ];
