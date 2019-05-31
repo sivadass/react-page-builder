@@ -1,5 +1,6 @@
 .toolbar {
-  padding: 8px 0;
+  padding: 8px 16px;
+  display: flex;
 }
 .toolbar-list {
   padding: 0;
@@ -8,21 +9,37 @@
   .toolbar-item {
     display: inline-block;
     margin: 0 8px 0 0;
-    button {
-      height: 32px;
-      padding: 0 8px;
-      background: transparent;
-      color: #999;
-      border-color: transparent;
-      i {
-        vertical-align: middle;
-        margin-right: 4px;
-      }
-      &:hover {
-        background: #fff;
-        color: #232323;
-        cursor: move;
-      }
+  }
+}
+
+.toolbar-button {
+  height: 32px;
+  padding: 0 8px;
+  background: transparent;
+  color: #999;
+  border-color: transparent;
+  i {
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  &:hover {
+    background: #fff;
+    color: #232323;
+    cursor: move;
+  }
+}
+
+.toolbar-action {
+  margin-left: auto;
+  display: flex;
+  .toolbar-button {
+    cursor: pointer;
+    width: 90px;
+    &.preview {
+      width: 110px;
+      background: #ddd;
+      color: #232323;
+      margin-left: 16px;
     }
   }
 }

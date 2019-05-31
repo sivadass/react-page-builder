@@ -1,5 +1,7 @@
 .layers-list-container {
   flex-basis: 200px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
   background: #f5f5f5;
   .title {
     font-size: 16px;

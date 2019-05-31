@@ -1,5 +1,15 @@
 .canvas {
   flex-grow: 1;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
+  padding: 8px;
+  .layer-item {
+    padding: 8px;
+    border: 1px dashed transparent;
+    &:hover {
+      border-color: #ccc;
+    }
+  }
 }

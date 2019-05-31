@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./layers-list.scss";
-import { LAYER_ITEMS } from "./constants";
+import { Store } from "../../../store";
 
 function LayersList() {
+  const { state, dispatch } = useContext(Store);
   return (
     <div className="layers-list-container">
       <h3 className="title">Layers</h3>
       <ul className="layers-list">
-        {LAYER_ITEMS.map(tool => (
+        {state.layers.map(tool => (
           <li className="layer-item" key={tool.id}>
             <button
               onClick={() => {
