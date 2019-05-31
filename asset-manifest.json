@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-page-builder/static/css/main.2ebbf3ab.chunk.css",
+    "main.js": "/react-page-builder/static/js/main.2bfcede7.chunk.js",
+    "main.js.map": "/react-page-builder/static/js/main.2bfcede7.chunk.js.map",
+    "runtime~main.js": "/react-page-builder/static/js/runtime~main.2551090b.js",
+    "runtime~main.js.map": "/react-page-builder/static/js/runtime~main.2551090b.js.map",
+    "static/js/2.03b1b097.chunk.js": "/react-page-builder/static/js/2.03b1b097.chunk.js",
+    "static/js/2.03b1b097.chunk.js.map": "/react-page-builder/static/js/2.03b1b097.chunk.js.map",
+    "index.html": "/react-page-builder/index.html",
+    "precache-manifest.695c2ac49efe76c925455bd05b8c209e.js": "/react-page-builder/precache-manifest.695c2ac49efe76c925455bd05b8c209e.js",
+    "service-worker.js": "/react-page-builder/service-worker.js",
+    "static/css/main.2ebbf3ab.chunk.css.map": "/react-page-builder/static/css/main.2ebbf3ab.chunk.css.map"
+  }
+}
