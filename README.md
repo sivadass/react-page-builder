@@ -4,4 +4,4 @@ POC for page builder using React JS
 
 ### Live Demo
 
-[https://sivadass.github.io/react-page-builder/](https://sivadass.github.io/react-page-builder/)
+[https://react-page-builder.netlify.com/](https://react-page-builder.netlify.com/)
