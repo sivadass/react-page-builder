@@ -3,3 +3,21 @@
   flex-shrink: 0;
   background: #eee;
 }
+.property-form {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  .inline-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    input {
+      height: 24px;
+      padding: 4px;
+      flex-basis: 60px;
+      margin-left: auto;
+    }
+  }
+}
