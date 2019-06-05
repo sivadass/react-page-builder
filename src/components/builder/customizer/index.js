@@ -7,6 +7,7 @@ function Customizer() {
     <div className="customizer">
       <Form title="Padding" />
       <Form title="Margin" />
+      <Form title="Border Width" />
     </div>
   );
 }
