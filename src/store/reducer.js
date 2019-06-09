@@ -7,7 +7,10 @@ function reducer(state, action) {
     case actions.UPDATE_LAYER:
       return { ...state, layers: action.payload };
     case actions.REMOVE_LAYER:
-      return { ...state, layers: action.payload };
+      return {
+        ...state,
+        layers: state.layers.filter(layer => layer.id !== action.id)
+      };
     default:
       return state;
   }

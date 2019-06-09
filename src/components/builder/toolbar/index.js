@@ -18,7 +18,7 @@ function Toolbar() {
   const removeLayer = id => {
     return dispatch({
       type: actions.REMOVE_LAYER,
-      payload: id
+      id
     });
   };
   return (
