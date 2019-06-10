@@ -23,5 +23,10 @@ export const LAYER_ITEMS = [
     id: 5,
     name: "Section",
     type: "section"
+  },
+  {
+    id: 6,
+    name: "Section with Contents",
+    type: "widget"
   }
 ];
