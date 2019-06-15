@@ -1,8 +1,8 @@
 import React from "react";
 import uuid from "uuidv4";
-import { TOOL_ITEMS } from "./constants";
+// import { TOOL_ITEMS } from "./constants";
 
-const Tools = ({ addLayer, removeLayer }) => {
+const Tools = ({ tools, addLayer, removeLayer }) => {
   const handleAdd = (type, name) => {
     const data = {
       id: uuid(),
@@ -13,7 +13,7 @@ const Tools = ({ addLayer, removeLayer }) => {
   };
   return (
     <ul className="toolbar-list">
-      {TOOL_ITEMS.map(tool => (
+      {tools.map(tool => (
         <li className="toolbar-item" key={tool.id}>
           <button
             className="toolbar-button"

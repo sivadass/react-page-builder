@@ -6,7 +6,7 @@ import actions from "../../../store/action-types";
 
 import "./toolbar.scss";
 
-function Toolbar() {
+function Toolbar({ tools }) {
   const { state, dispatch } = useContext(Store);
   console.log(state);
   const addLayer = data => {
@@ -23,7 +23,7 @@ function Toolbar() {
   };
   return (
     <div className="toolbar">
-      <Tools addLayer={addLayer} removeLayer={removeLayer} />
+      <Tools tools={tools} addLayer={addLayer} removeLayer={removeLayer} />
       <CommonActions />
     </div>
   );
